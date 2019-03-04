@@ -33,10 +33,12 @@
  2. 워킹 디렉토리 : 프로젝트의 특정 버전을 Checkout한 것이다. Git 디렉토리는 지금 작업하는 디스크에 있고 그 디렉토리에 압축된 데이터베이스에서 파일을 가져와서 워킹 디렉토리를 만든다.
  
  3. Staging Area : Staging Area는 Git 디렉토리에 있다. 단순한 파일이고 곧 커밋할 파일에 대한 정보를 저장한다.
+ 
+:key: 정리
+---------------------------------------
+Git으로 하는 일은 기본적으로 아래와 같다.
+ - 워킹 렉토리에서 파일을 수정한다.
+ - Staging Area에 파일을 Stage해서 커밋할 스냅샷을 만든다.
+ - Staging Area에 있는 파일들을 커밋해서 Git 디렉토리에 영구적인 스냅샷을 저장한다.
   
-  정리하면 Git으로 하는 일은 기본적으로 아래와 같다.
-  - 워킹 렉토리에서 파일을 수정한다.
-  - Staging Area에 파일을 Stage해서 커밋할 스냅샷을 만든다.
-  - Staging Area에 있는 파일들을 커밋해서 Git 디렉토리에 영구적인 스냅샷을 저장한다.
-  
-  Git 디렉토리에 있느 파일들은 Committed 상태이다. 파일을 숮덩하고 Staging Area에 추가했다면 Staged이다. 그리고 Checkout하고나서 수정했지만, 아직 Staging Area에 추가하지 않았다면 Modified이다.
+Git 디렉토리에 있느 파일들은 Committed 상태이다. 파일을 숮덩하고 Staging Area에 추가했다면 Staged이다. 그리고 Checkout하고나서 수정했지만, 아직 Staging Area에 추가하지 않았다면 Modified이다.
