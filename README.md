@@ -42,3 +42,6 @@ Git으로 하는 일은 기본적으로 아래와 같다.
  - Staging Area에 있는 파일들을 커밋해서 Git 디렉토리에 영구적인 스냅샷을 저장한다.
   
 Git 디렉토리에 있느 파일들은 Committed 상태이다. 파일을 수정하고 Staging Area에 추가했다면 Staged이다. 그리고 Checkout하고나서 수정했지만, 아직 Staging Area에 추가하지 않았다면 Modified이다.
+
+## ○ 참고문서
+* [시작하기 - Git기초](https://git-scm.com/book/ko/v1/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EA%B8%B0%EC%B4%88)
